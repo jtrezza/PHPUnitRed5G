@@ -4,7 +4,7 @@ namespace Red5g\Test;
 
 use Red5g\Services\AccountingService;
 
-class CAccountingServiceTest extends \PHPUnit_Framework_TestCase
+class CAccountingServiceTest extends FinsonetTestCase
 {
     /**
      * Comprueba que la contabilidad generada en un ingreso no

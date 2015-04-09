@@ -4,7 +4,7 @@ namespace Red5g\Test;
 
 use Red5g\Services\AccountingService;
 
-class DAccountingServiceDataProviderTest extends \PHPUnit_Framework_TestCase
+class DAccountingServiceDataProviderTest extends FinsonetTestCase
 {
     /**
      * @dataProvider valuesProvider

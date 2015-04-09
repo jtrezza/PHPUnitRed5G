@@ -7,7 +7,7 @@ namespace Red5g\Test;
 use GuzzleHttp\Client;
 
 
-class GAjaxOrAPITest extends \PHPUnit_Framework_TestCase
+class GAjaxOrAPITest extends FinsonetTestCase
 {
     public function testCorrectResponse()
     {

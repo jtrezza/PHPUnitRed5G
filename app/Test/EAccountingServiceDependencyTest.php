@@ -4,7 +4,7 @@ namespace Red5g\Test;
 
 use Red5g\Services\AccountingService;
 
-class EAccountingServiceDependencyTest extends \PHPUnit_Framework_TestCase
+class EAccountingServiceDependencyTest extends FinsonetTestCase
 {
     /**
      * @return array El valor devuelto por esta función será utilizado por otra

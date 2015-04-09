@@ -1,17 +1,26 @@
 <?php
+/**
+ * Esta clase no ofrece nada nuevo, solo es una prueba
+ * de que funcionen aún los tests en subdirectorios
+ */
 
-namespace Red5g\Test;
+namespace Red5g\Test\Services;
+
+
+use Red5g\Test\FinsonetTestCase;
 use Red5g\Models\User;
 
-class FDataBaseFixturesTest extends FinsonetTestCase
-{
-    /**
-     * setUp se ejecuta antes de cada test. setUpBeforeClass, solo
-     * antes del primero.
-     */
+class InsideDirectoryTest extends FinsonetTestCase{
+
     public function setUp()
     {
         User::create(['username'=>'la_yuyeimy', 'email'=>'layuyeimy@fincho.co', 'password'=>'123456']);
+    }
+
+    public function testTrue()
+    {
+        $bool = true;
+        $this->assertTrue($bool);
     }
 
     public function testSuccessfullyPasswordChange()
@@ -34,4 +43,6 @@ class FDataBaseFixturesTest extends FinsonetTestCase
     {
         User::truncate();
     }
+
+
 }

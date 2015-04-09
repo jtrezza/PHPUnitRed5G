@@ -4,7 +4,7 @@ namespace Red5g\Test;
 
 use Red5g\Services\ValidationService;
 
-class BValidationServiceTest extends \PHPUnit_Framework_TestCase
+class BValidationServiceTest extends FinsonetTestCase
 {
 
     /**

@@ -3,7 +3,7 @@
 namespace Red5g\Test;
 
 
-class ATrueFalseAndEqualTest extends \PHPUnit_Framework_TestCase
+class ATrueFalseAndEqualTest extends FinsonetTestCase
 {
 
     public function testTrue()

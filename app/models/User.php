@@ -2,7 +2,7 @@
 
 namespace Red5g\Models;
 
-require_once 'config_composer.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/phpunit/config_composer.php';
 /**
  * Documentación de Eloquent: http://laravel.com/docs/4.2/eloquent
  */
