@@ -12,9 +12,9 @@ $capsule = new Capsule;
 $capsule->addConnection([
     'driver' =>'mysql',
     'host' => 'localhost',
-    'database' => 'prueba',
-    'username' => 'root',
-    'password' => 'finsocial123',
+    'database' => 'test',
+    'username' => 'user',
+    'password' => 'pass',
     'charset' => 'utf8',
     'collation' => 'utf8_unicode_ci',
     'prefix' => '',
